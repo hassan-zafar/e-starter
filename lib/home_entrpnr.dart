@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:estarter1/main.dart';
 
-class homeent extends StatelessWidget {
-  const homeent({Key? key}) : super(key: key);
+class HomeEntrepneur extends StatelessWidget {
+  const HomeEntrepneur({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

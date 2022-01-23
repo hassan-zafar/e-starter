@@ -5,12 +5,14 @@ import 'package:estarter1/choose.dart';
 import 'package:estarter1/main.dart';
 import 'package:flutter/material.dart';
 
-class entrpnr extends StatefulWidget {
+class Entrepreneur extends StatefulWidget {
+  const Entrepreneur({Key? key}) : super(key: key);
+
   @override
-  _entrpnrState createState() => _entrpnrState();
+  _EntrepreneurState createState() => _EntrepreneurState();
 }
 
-class _entrpnrState extends State<entrpnr> {
+class _EntrepreneurState extends State<Entrepreneur> {
   String DropDownValue = ' Entreprenuer ';
   var dropitems = <String>['Investor', 'Entreprenuer'];
   @override

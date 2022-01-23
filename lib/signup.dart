@@ -1,6 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers, unnecessary_new, prefer_const_constructors, unrelated_type_equality_checks, prefer_const_literals_to_create_immutables, sized_box_for_whitespace
 
 import 'dart:ui';
+import 'package:estarter1/home_entrpnr.dart';
 import 'package:flutter/material.dart';
 
 class SignupPage extends StatefulWidget {
@@ -147,7 +148,6 @@ class _SignupPageState extends State<SignupPage> {
                               return 'Please Re-Enter Password';
                             }
                           }),
-
                       SizedBox(height: 50.0),
                       Container(
                           height: 40.0,
@@ -157,7 +157,11 @@ class _SignupPageState extends State<SignupPage> {
                             color: Colors.blue,
                             elevation: 7.0,
                             child: GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => HomeEntrepneur(),
+                                ));
+                              },
                               child: Center(
                                 child: Text(
                                   'SIGNUP as Enterprenuer',

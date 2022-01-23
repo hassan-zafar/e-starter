@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class homeinv extends StatelessWidget {
-  const homeinv({Key? key}) : super(key: key);
+class HomeInvestor extends StatelessWidget {
+  const HomeInvestor({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
