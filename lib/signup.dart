@@ -2,6 +2,7 @@
 
 import 'dart:ui';
 import 'package:estarter1/home_entrpnr.dart';
+import 'package:estarter1/home_invstr.dart';
 import 'package:flutter/material.dart';
 
 class SignupPage extends StatefulWidget {
@@ -184,7 +185,11 @@ class _SignupPageState extends State<SignupPage> {
                             color: Colors.blue,
                             elevation: 7.0,
                             child: GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => HomeInvestor(),
+                                ));
+                              },
                               child: Center(
                                 child: Text(
                                   'SIGNUP as Investor',
