@@ -1,41 +1,34 @@
 {
   "project_info": {
-    "project_number": "172318733348",
-    "project_id": "estarter-89514",
-    "storage_bucket": "estarter-89514.appspot.com"
+    "project_number": "1017382948091",
+    "project_id": "e-stater",
+    "storage_bucket": "e-stater.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:172318733348:android:57cade08aa4aa9d30154b1",
+        "mobilesdk_app_id": "1:1017382948091:android:4a2b979129d9d87949b45e",
         "android_client_info": {
-          "package_name": "com.example.estarter1"
+          "package_name": "com.fastnuces.estartup"
         }
       },
       "oauth_client": [
         {
-          "client_id": "172318733348-41uhka5u8lc0qt3h7i6rjaf1jbcfvo7p.apps.googleusercontent.com",
+          "client_id": "1017382948091-0da4kb8bkh0jtq7977bsomd8muqsh1ff.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCI0RFML9BC0Mm_OjAp4FA_uZUEOU-fDzg"
+          "current_key": "AIzaSyDNuYXWQaEI6lO9TX3pTY-RUF7OJuYfX3M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "172318733348-41uhka5u8lc0qt3h7i6rjaf1jbcfvo7p.apps.googleusercontent.com",
+              "client_id": "1017382948091-0da4kb8bkh0jtq7977bsomd8muqsh1ff.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "172318733348-84i2v9mdrnhhvpr82ep03mjt3ngd9tnh.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.estarter"
-              }
             }
           ]
         }
